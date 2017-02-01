@@ -21,20 +21,6 @@ class PluginCryptopass extends Plugin
     ];
 
     /**
-     * Активация плагина
-     */
-    public function Activate()
-    {
-        $sPhpVersion = '5.5.0';
-        if (version_compare(PHP_VERSION, $sPhpVersion, '<')) {
-            $this->Message_AddErrorSingle($this->Lang_Get('plugin.cryptopass.activate.required.php', [ 'version' => $sPhpVersion ]));
-            return false;
-        }
-        $this->ExportSQL(dirname(__FILE__) . '/sql/install.sql');
-        return true;
-    }
-
-    /**
      * Инициализация плагина
      */
     public function Init()
