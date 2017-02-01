@@ -1,6 +1,6 @@
 <?php
 
-class PluginCryptopass_Update_Intstall extends ModulePluginManager_EntityUpdate
+class PluginCryptopass_Update_Install extends ModulePluginManager_EntityUpdate
 {
     /**
      * Выполняется при обновлении версии
