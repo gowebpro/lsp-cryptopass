@@ -1,1 +1,1 @@
-ALTER TABLE `prefix_user` CHANGE `user_password` `user_password` VARCHAR(250) NOT NULL;
+ALTER TABLE `prefix_user` CHANGE `user_password` `user_password` VARCHAR(255) NOT NULL;
