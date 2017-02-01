@@ -13,7 +13,7 @@ return [
         'main' => [
             'encrypt_cost' => [
                 'name' => 'Количество раундов подготовки ключей',
-                'description' => 'Смотри подробней <a href="//php.net/manual/ru/function.crypt.php">function.crypt.php</a>',
+                'description' => 'Смотри подробней <a href="//php.net/manual/ru/function.password-hash.php" target="_blank">function.password-hash.php</a>',
             ],
         ],
     ],
