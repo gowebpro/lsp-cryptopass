@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Crypto Password</lang>
+        <lang name="russian">Крипто пароли</lang>
+    </name>
+    <author>
+        <lang name="default">Chiffa</lang>
+    </author>
+    <homepage>http://goweb.pro</homepage>
+    <settings>{admin/plugin/cryptopass}</settings>
+    <version>1.0</version>
+    <requires>
+        <livestreet>2.0</livestreet>
+        <plugins>
+        </plugins>
+    </requires>
+    <description>
+        <lang name="default">New encryption method for user password</lang>
+        <lang name="russian">Новый метод шифрования паролей пользователей</lang>
+    </description>
+</plugin>
