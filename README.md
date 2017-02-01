@@ -4,12 +4,12 @@ Crypto Password plugin for [LiveStreet CMS](http://livestreetcms.com/ "LiveStree
 Требования
 ----------
 LiveStreet CMS версии **2.0.0** или более поздней.
-PHP **5.0.0** или более поздней
 
 
 Описание
 --------
 Плагин заменяет стандартную функцию шифрование пароля на более надежную.
+
 Подробней можно почитать тут [php.net](http://php.net/manual/ru/ref.password.php "ref.password.php")
 
 
