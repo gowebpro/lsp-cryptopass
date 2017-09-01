@@ -19,7 +19,7 @@ return [
             'name'        => 'config.main.encrypt_cost.name',
             'description' => 'config.main.encrypt_cost.description',
             'validator'   => [
-                'type'   => 'String',
+                'type'   => 'Number',
                 'params' => [
                     'min'         => 2,
                     'max'         => 24,
